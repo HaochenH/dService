@@ -1,1 +1,1 @@
-<iframe width="768" height="432" src="https://miro.com/app/embed/uXjVP0fpouA=/?pres=1&frameId=3458764542901031904&embedId=644172326507" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<img width="1328" alt="image" src="https://user-images.githubusercontent.com/101531662/215233085-29f6209f-f39d-453e-a560-de24a52f1a7a.png">
