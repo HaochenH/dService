@@ -1,4 +1,4 @@
-## Problem Statement:
+## Problem Statement
 <p style='font-size:24px'>
 <strong>
 <span>How might 
