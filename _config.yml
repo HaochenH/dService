@@ -1,13 +1,14 @@
-theme: jekyll-theme-cayman
 title: dService 
 # description:
 show_downloads: false
-# email: 
-baseurl: "" # the subpath of your site, e.g. /blog
-# domain:
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  haochenh
-
+theme: jekyll-theme-cayman
+title: dService
+description: Welcome to dService!
+# email: 
+# domain:
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -42,7 +43,9 @@ github_username:  haochenh
 # # Build settings
 # theme: minima
 # plugins:
-#   - jekyll-feed
+#   - jekyll-remote-theme
+  # - jekyll-feed
+# remote_theme: benbalter/retlab
 
 # Exclude from processing.
 # The following items will not be processed, by default.
