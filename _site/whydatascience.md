@@ -1,3 +1,5 @@
+<a href="{{ site.baseurl }}/index">< Home</a>
+
 ## Why Data Science?
 
 Data science has become an essential tool for businesses and organizations to make data-driven decisions, optimize operations, and gain a competitive advantage. The field encompasses a broad range of techniques and technologies, including machine learning, statistics, and computer science. However, the rapid pace of technological change and the diverse applications of data science make it challenging for university students to stay current with the field and to understand the full scope of career opportunities available.
