@@ -1,13 +1,10 @@
+# A UW Information School Capstone Project
 # DAfinity / dService
 
 ## Website Link:
 
 [https://haochenh.github.io/dService/](https://haochenh.github.io/dService/)
 
-## Capstone project
+## Tutorial of debugging locally:
 
-Our Team:
-
-<img width="1078" alt="image" src="https://user-images.githubusercontent.com/101531662/215262580-9f834ade-1da6-4b7e-9e56-93035f37fcce.png">
-
-
+[https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
