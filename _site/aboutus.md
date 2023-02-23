@@ -1,4 +1,4 @@
-<a href="{{ site.baseurl }}/index">< Home</a>
+# **About Us**
 
 ## Our Team: 
 
