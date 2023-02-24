@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#2395c2">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
     {% if page.custom_css %}
@@ -16,39 +15,18 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
     {% endfor %}
     {% endif %}
-
     {% include head-custom.html %}
+    
   </head>
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <div class="project-social-links">
-      </div>
-      <div class="links">
-        <a class="btn" href="{{ site.baseurl }}/index">Home</a>
-        <a class="btn" href="{{ site.baseurl }}/overview">Overview</a>
-        <a class="btn" href="{{ site.baseurl }}/program_filter_tool">Program Filter Tool</a>
-        <a class="btn" href="{{ site.baseurl }}/program_comparison_tool">Program Comparison Tool</a>
-        <a class="btn" href="{{ site.baseurl }}/career">Career</a>
-        <a class="btn" href="{{ site.baseurl }}/aboutus">About us</a>
-      </div>
-      <!-- {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %} -->
-      <!-- {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %} -->
+      {% include navigation-bar.html %}
     </header>
-
     <main id="content" class="main-content animate__animated animate__fadeIn" role="main">
       {{ content }}
-
       <footer class="site-footer">
-        <!-- {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %} -->
         <span class="site-footer-owner">© {{ site.time | date: '%Y' }} DAfinity Data Science Programs Guide</span>
       </footer>
     </main>

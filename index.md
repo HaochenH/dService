@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # **dService**
 
 <a href="{{ site.baseurl }}/whydatascience"><img src="https://user-images.githubusercontent.com/101531662/220003376-a59fc32e-be7e-42ec-b8c7-f495e3057801.png" alt="whydatascience" width="200" ></a>
