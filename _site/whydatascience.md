@@ -12,5 +12,4 @@ Especially for international students who want to legally work in the US after g
 
 Currently, there is a shortage of data science professionals in the tech industry. According to employment projection data from U.S. Bureau of Statistics, the employment of data scientist is projected to grow 36% from 2021 - 2031, which is faster than the average growth rate of all other occupations(U.S. Bureau of Labor Statistics, 2022). This has led to high demand for individuals with data science skills and has created a significant number of job opportunities for students with a background in data science. However, students may face challenges in gaining access to comprehensive education and resources on the history and current state of data science. This limits their ability to fully grasp the opportunities and challenges within the industry, or effectively contribute to its continued growth.
 
-
 <img src="https://user-images.githubusercontent.com/101531662/220794896-206d755b-ba4c-49d2-9ac6-9927bdf795f4.png" alt="whychoosedservice" width="200">
