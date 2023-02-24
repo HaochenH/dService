@@ -3,7 +3,7 @@
 
 ## Website Link:
 
-[https://haochenh.github.io/dService/](https://haochenh.github.io/dService/)
+[https://dService.pages.dev/](https://dService.pages.dev/)
 
 ## Tutorial of debugging locally:
 
