@@ -1,7 +1,3 @@
 <!-- <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTEyYzhhZGEtZTljOC00N2Q0LWI4N2YtMGZlNDJmZjZhYWJkIiwidCI6ImY2YjZkZDViLWYwMmYtNDQxYS05OWEwLTE2MmFjNTA2MGJkMiIsImMiOjZ9" frameborder="0" allowFullScreen="true" style="border: none; width: 100%; height: 500px;"></iframe> -->
-
-<!-- <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/reportEmbed?reportId=70940e15-a7d5-464b-a0c1-7a53d8460ad0&autoAuth=true&ctid=f6b6dd5b-f02f-441a-99a0-162ac5060bd2" frameborder="0" allowFullScreen="true" style="border: none; width: 100%; height: 500px;"></iframe> -->
-
 <iframe class="powerbi" title="capstone" width="600" height="600" src="https://app.powerbi.com/reportEmbed?reportId=70940e15-a7d5-464b-a0c1-7a53d8460ad0&autoAuth=true&ctid=f6b6dd5b-f02f-441a-99a0-162ac5060bd2" frameborder="0" allowFullScreen="true" style="border: none; width: 100%; height: 500px;"></iframe>
-
-<!-- <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/reportEmbed?reportId=70940e15-a7d5-464b-a0c1-7a53d8460ad0&autoAuth=true&ctid=f6b6dd5b-f02f-441a-99a0-162ac5060bd2" frameborder="0" allowFullScreen="true" style="border: none; width: 100%; height: 500px;"></iframe> -->
+<a href="https://app.powerbi.com/reportEmbed?reportId=70940e15-a7d5-464b-a0c1-7a53d8460ad0&autoAuth=true&ctid=f6b6dd5b-f02f-441a-99a0-162ac5060bd2" target="_blank">🖥️ View in fullscreen</a>
