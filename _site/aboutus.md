@@ -15,5 +15,5 @@ This is where to clarify the restrictions. It may seem similar to the scope but 
 E.g. “We are not able to do the feature A because there were not enough researches. We are waiting for the results of this version to include that feature.” 
 
 ## Resources
-
-- Icon Source: https://undraw.co/search
+- Icon Source: [Undraw](https://undraw.co/search)
+- Image Source: [Unsplash](https://unsplash.com/)
