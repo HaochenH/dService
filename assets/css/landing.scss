@@ -23,6 +23,14 @@
   font-weight: 600;
 }
 
-.main {
-  background-image: url(../images/earth-1.avif);
+.map {
+  background-color: rgb(215, 213, 201);
+  width: 100%;
+  border-radius: 16px;
+}
+
+
+body {
+  background-color: rgb(49, 37, 45);
+  height: none;
 }

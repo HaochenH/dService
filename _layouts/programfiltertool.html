@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2395c2">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/programfiltertool.css">
+    {% include head-custom.html %}
+    
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
+      <h2 class="project-tagline">Welcome to <a href="{{ site.baseurl }}/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2>
+      {% include navigation-bar.html %}
+      {{ content }}
+    </header>
+    <main id="content" class="main-content animate__animated animate__fadeIn" role="main">
+      {% include site-footer.html %}
+    </main>
+  </body>
+</html>
