@@ -1,4 +1,4 @@
-<a href="{{ site.baseurl }}/index">< Home</a>
+<a href="{{ site.baseurl }}/home">< Home</a>
 
 # Why choose dService?
 
