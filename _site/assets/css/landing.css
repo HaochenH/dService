@@ -330,8 +330,14 @@ a:hover { text-decoration: underline; }
 
 .map { background-color: #d7d5c9; width: 100%; border-radius: 16px; }
 
-body { background-color: #19161e; height: none; }
+body { background-color: #28252e; height: none; }
+
+p { color: #e6e6e6; }
+
+h2 { color: white; }
 
 .logo { width: 130px; height: 130px; }
 
-.site-footer-owner { font-weight: 550; color: #767ebe; }
+.logo-small { width: 88px; height: 88px; }
+
+.site-footer-owner { font-weight: 600; color: rgba(135, 159, 255, 0.801); }

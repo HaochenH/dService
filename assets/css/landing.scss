@@ -31,8 +31,16 @@
 
 
 body {
-  background-color: rgb(25, 22, 30);
+  background-color: rgb(40, 37, 46);
   height: none;
+}
+
+p {
+  color: rgb(230, 230, 230);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -40,7 +48,12 @@ body {
   height: 130px;
 }
 
+.logo-small {
+  width: 88px;
+  height: 88px;
+}
+
 .site-footer-owner {
-  font-weight: 550;
-  color: rgb(118, 126, 190);
+  font-weight: 600;
+  color: rgba(135, 159, 255, 0.801);
 }
