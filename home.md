@@ -6,8 +6,6 @@ layout: default
 
 <!-- ### Welcome to dService! -->
 
-<br>
-
 
 <!-- ### <a href="{{ site.baseurl }}/whydatascience" style="color:#159957; text-decoration:underline"> Why Data Science? </a> -->
 
@@ -24,6 +22,10 @@ layout: default
 <!-- ## Why choose dService? -->
 <!-- <h2 style="font-weight:500;color:rgb(125, 137, 197)">Why choose dService?</h2> -->
 <!-- ### What’s the need not being met? -->
+
+<iframe src="https://map.proxi.co/r/Slg-1l4dDwnqvWMeT8_5" class="map mt-4" allow="geolocation; clipboard-write"
+      width="100%" height="625px" style="border-width: 0px;" allowfullscreen></iframe>
+
 <h2 style="font-weight:450;color:rgb(125, 137, 197)">Why choose dService? What’s the need not being met?</h2>
 
 The need not being met is the need for accurate and up-to-date information about data science graduate programs & job opportunities for international students interested in data science.

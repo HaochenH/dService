@@ -330,6 +330,12 @@ a:hover { text-decoration: underline; }
 
 .map { background-color: #d7d5c9; width: 100%; border-radius: 16px; box-shadow: 0 0 18px 0 rgba(135, 159, 255, 0.801); }
 
+.img { background-color: #d7d5c9; width: 100%; border-radius: 16px; box-shadow: 0 0 18px 0 rgba(135, 159, 255, 0.801); }
+
+.map { height: 70vh; }
+
+.rounded { border-radius: 16px; }
+
 body { background-color: #28252e; height: none; }
 
 p { color: #e6e6e6; }
@@ -341,3 +347,5 @@ h2 { color: white; }
 .logo-small { width: 88px; height: 88px; }
 
 .site-footer-owner { font-weight: 600; color: rgba(135, 159, 255, 0.801); }
+
+h2 { font-weight: 500; color: #cacffc; }
