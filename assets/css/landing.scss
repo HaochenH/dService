@@ -6,47 +6,83 @@
   display: none;
 }
 
-// defined on main website. only adding it for testing
-.page-header {
-  background-color: rgba(133, 133, 133, 0.5);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(-45deg, rgba(238,119,82,0.15), rgba(231,60,126,0.15), rgba(35,166,213,0.15), rgba(35,213,171,0.15)), url(../images/earth-1.avif);
-  height: auto;
+.nav{
+  position: fixed;
+  background-color: rgba(18, 18, 18, 0.013);
+  width: 100%;
+  //background blur
+  backdrop-filter: blur(10px);
 }
 
 .btn {
-  background-color: #50505032;
+  background-color: #22222232;
   border-color: #c2c2c2ae;
-  color: rgb(242, 242, 242);
+  color: rgb(224, 224, 224);
   font-weight: 600;
-  box-shadow: 0 0 5px 0 rgba(135, 159, 255, 0.801);
+  transition: 0.3s;
 }
 
-.map {
-  background-color: rgb(215, 213, 201);
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 0 18px 0 rgba(135, 159, 255, 0.801);
+.nav .btn {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(120, 142, 230);
+  color: rgb(115, 136, 221);
+  font-weight: 700;
+  transition: 0.3s;
 }
+
+// defined on main website. only adding it for testing
+#header{
+  background-color: rgb(49, 49, 49);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-image: linear-gradient(-45deg, rgba(238,119,82,0.15), rgba(231,60,126,0.15), rgba(35,166,213,0.15), rgba(35,213,171,0.15)), url(../images/earth-1.avif);
+  //change to only white mask
+  background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1.avif);
+  // height: 65vh;
+}
+
+// add padding to the top and bottom of the header
+.header-content {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+#pic{
+  background-color: rgb(212, 212, 212);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  // background-image: linear-gradient(-45deg, rgba(238,119,82,0.15), rgba(231,60,126,0.15), rgba(35,166,213,0.15), rgba(35,213,171,0.15)), url(../images/earth-1.avif);
+  //change to only white mask
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.img {
+  box-shadow: 0 0 2px 0 rgba(72, 72, 72, 0.485);
+}
+
+// .map {
+//   background-color: rgb(215, 213, 201);
+//   width: 100%;
+//   border-radius: 16px;
+//   box-shadow: 0 0 18px 0 rgba(135, 159, 255, 0.801);
+// }
 
 .img {
   background-color: rgb(215, 213, 201);
   width: 100%;
   border-radius: 16px;
-  box-shadow: 0 0 18px 0 rgba(135, 159, 255, 0.801);
+  // box-shadow: 0 0 18px 0 rgba(135, 159, 255, 0.801);
 }
 
-.map {
-  height: 70vh;
-}
 .rounded {
   border-radius: 16px;
 }
 
 body {
-  background-color: rgb(40, 37, 46);
+  // background-color: rgb(40, 37, 46);
+  background-color: rgb(26, 26, 26);
   height: none;
 }
 

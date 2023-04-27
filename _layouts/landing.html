@@ -14,65 +14,61 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/landing.css"> -->
   {% include head-custom.html %}
-
 </head>
 
 <body>
-  <!-- <header class="">
-    <h2 class="project-tagline">Welcome to <a href="{{ site.baseurl }}/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2>
-  </header> -->
-  <!-- <header>
-    <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="#" class="flex items-center">
-                <span class="self-center text-xl font-medium whitespace-nowrap text-white">DAfinity</span>
-            </a>
-        </div>
-    </nav>
-  </header> -->
-  <header>
+  <header class="nav">
     <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <a href="#" class="flex items-center">
           <img src="{{ site.baseurl }}/assets/images/logo-transparent-darkmode.png" alt="DAfinity" class="logo-small">
-            <div class="navbar pt-4">
-              {% include navigation-bar.html %}
-            </div>
+          <div class="navbar pt-4">
+            {% include navigation-bar.html %}
+          </div>
           <!-- <span class="self-center text-xl font-medium whitespace-nowrap text-white">DAfinity</span> -->
         </a>
       </div>
     </nav>
   </header>
-  <main class="page-header" role="banner">
-    <h1 class="text-4xl p-6 font-medium">Navigate Your Data Science Journey with <span
-        style="color:rgb(199, 205, 247); font-weight:650">dService</span></h1>
-    <h2 class="text-xl p-4 pb-8" style="font-weight:400;color:rgba(255, 255, 255, 0.862)"><span
-        style="color:rgb(202, 207, 252); font-weight:500">dService</span> is an innovative platform designed to
-      empower international students interested in data science with personalized insights and detailed information
-      about U.S. Data Science Master's programs.</h2>
-    <a class="btn p-4 mb-8 mt-4" href="{{ site.baseurl }}/home">Try dService&nbsp;&nbsp;➚</a>
-    <br>
+  <main class="page-header" role="banner" id="header">
+    <div class="header-content">
+      <h1 class="text-6xl p-8 font-medium page-title">Navigate Your Data Science Journey with <span
+          style="color:rgb(158, 169, 254); font-weight:650">dService</span></h1>
+      <h2 class="text-2xl p-4 pb-8" style="font-weight:350;color:rgba(255, 255, 255, 0.931)">
+        <!-- <span
+          style="color:rgb(158, 169, 254); font-weight:500">dService</span>  -->
+        An innovative platform designed to
+        empower international students interested in data science with personalized insights and detailed information
+        about U.S. Data Science Master's programs.
+      </h2>
+      <a class="btn p-4 mb-8 mt-4" href="{{ site.baseurl }}/home">Try dService&nbsp;&nbsp;➚</a>
+      <br>
+    </div>
+    <!-- <h2 class="text-md" style="font-weight:500;color:rgb(152, 152, 152)">Scroll down to learn more</h2> -->
   </main>
-  <main id="content" class="main-content animate__animated animate__fadeIn pt-16" role="main">
+  <main id="content" class="main-content animate__animated animate__fadeIn pt-8" role="main">
     {{ content }}
-    <!-- <h2 class="text-2xl" style="font-weight:500;color:rgb(202, 207, 252)">Explore our data on map</h2>
-    <iframe src="https://map.proxi.co/r/Slg-1l4dDwnqvWMeT8_5" class="map mt-4" allow="geolocation; clipboard-write"
-      width="100%" height="625px" style="border-width: 0px;" allowfullscreen></iframe> -->
-    <h2 class="text-md" style="font-weight:500;color:rgb(202, 207, 252)">Tuition($) per year of data science programs</h2>
-    <!-- <img class="map" width="954" alt="tuition_ranking1" src="https://user-images.githubusercontent.com/101531662/231050172-76a9beca-c2a3-4ef0-83b9-89af5543929c.png"> -->
-    <img class="img" width="954" alt="tuition_ranking1" src="{{ site.baseurl }}/assets/images/tuition_ranking1.png">
-    <br>
-    {% include navigation-bar.html %}
-    <div class="footer pt-6">
+  </main>
+  <div class="page-header" id="pic">
+    <div class="pic">
+      <h2 class="text-xl pb-3 text-slate-600" style="font-weight:500">Tuition($) per year of data science programs
+      </h2>
+      <!-- <img class="map" width="954" alt="tuition_ranking1" src="https://user-images.githubusercontent.com/101531662/231050172-76a9beca-c2a3-4ef0-83b9-89af5543929c.png"> -->
+      <img class="img" width="954" alt="tuition_ranking1" src="{{ site.baseurl }}/assets/images/tuition_ranking1.png">
+      <br>
+    </div>
+  </div>
+  <footer id="content" class="main-content animate__animated animate__fadeIn" role="main">
+    <div class="footer">
+      {% include navigation-bar.html %}
       <img src="{{ site.baseurl }}/assets/images/logo-transparent-darkmode.png" alt="DAfinity" class="logo">
       <span class="site-footer-owner pt-6">© {{ site.time | date: '%Y' }} DAfinity Data Science Programs Guide.
         Background picture by
         <a href="https://unsplash.com/@nasa" style="text-decoration: underline">NASA</a> on
         <a href="https://unsplash.com" style="text-decoration: underline">Unsplash</a>.</span>
-
     </div>
+  </footer>
 
-  </main>
   <!-- <footer class="footer main-content">
     <div class="container">
       <img src="{{ site.baseurl }}/assets/images/logo-transparent-darkmode.png" alt="DAfinity" class="logo">
