@@ -349,3 +349,5 @@ h2 { color: white; }
 .site-footer-owner { font-weight: 600; color: rgba(135, 159, 255, 0.801); }
 
 h2 { font-weight: 500; color: #cacffc; }
+
+@media (max-width: 768px) { .navbar { display: none; } }

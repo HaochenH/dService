@@ -17,7 +17,10 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
       <h2 class="project-tagline">Welcome to <a href="{{ site.baseurl }}/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2>
-      {% include navigation-bar.html %}
+      <div class="navbar">
+        {% include navigation-bar.html %}
+      </div>
+      
     </header>
     <main id="content" class="main-content animate__animated animate__fadeIn" role="main">
       {{ content }}

@@ -77,3 +77,10 @@ h2 {
   font-weight: 500;
   color:rgb(202, 207, 252)
 }
+
+// hide top navigation bar when on mobile devices
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
