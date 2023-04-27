@@ -82,7 +82,7 @@
 
 body {
   // background-color: rgb(40, 37, 46);
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(10, 10, 10);
   height: none;
 }
 
@@ -108,6 +108,10 @@ h2 {
 h2 {
   font-weight: 500;
   color:rgb(202, 207, 252)
+}
+
+p {
+  color: rgb(255, 255, 255);
 }
 
 // hide top navigation bar when on mobile devices

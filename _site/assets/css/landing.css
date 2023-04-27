@@ -342,9 +342,7 @@ a:hover { text-decoration: underline; }
 
 .rounded { border-radius: 16px; }
 
-body { background-color: #1a1a1a; height: none; }
-
-p { color: #e6e6e6; }
+body { background-color: #0a0a0a; height: none; }
 
 h2 { color: white; }
 
@@ -355,5 +353,7 @@ h2 { color: white; }
 .site-footer-owner { font-weight: 600; color: rgba(135, 159, 255, 0.801); }
 
 h2 { font-weight: 500; color: #cacffc; }
+
+p { color: white; }
 
 @media (max-width: 768px) { .navbar { display: none; } }
