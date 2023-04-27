@@ -23,6 +23,8 @@ layout: default
 <!-- <h2 style="font-weight:500;color:rgb(125, 137, 197)">Why choose dService?</h2> -->
 <!-- ### What’s the need not being met? -->
 
+<a href="{{ site.baseurl }}/index" style=""> < Back</a>
+
 <h2>Map of Data Science Graduate Programs in the US</h2>
 
 <iframe src="https://map.proxi.co/r/Slg-1l4dDwnqvWMeT8_5" class="map mt-4" allow="geolocation; clipboard-write"
