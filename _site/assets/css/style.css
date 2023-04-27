@@ -324,9 +324,9 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { display: none; }
 
-.page-header { background-color: rgba(133, 133, 133, 0.5); background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(18, 18, 18, 0.825), rgba(36, 36, 36, 0.722)), url(../images/earth-2254769-dark-min.jpg); }
+.page-header { background-color: rgba(133, 133, 133, 0.5); background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(88, 88, 88, 0.712), rgba(36, 36, 36, 0.722)), url(../images/earth-2254769-dark-min.jpg); }
 
-.btn { background-color: #50505032; border-color: #c2c2c2ae; color: #f2f2f2; font-weight: 600; }
+.btn { background-color: #50505032; border-color: #c2c2c2ae; color: #f2f2f2; font-weight: 500; }
 
 .logo { width: 130px; height: 130px; }
 
