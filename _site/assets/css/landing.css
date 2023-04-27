@@ -338,6 +338,8 @@ a:hover { text-decoration: underline; }
 
 .img { box-shadow: 0 0 2px 0 rgba(72, 72, 72, 0.485); background-color: #d7d5c9; width: 100%; border-radius: 16px; }
 
+#ranking-img { box-shadow: 0 0 2px 0 rgba(72, 72, 72, 0.485); background-color: #d7d5c9; width: 100%; max-width: 1006px; border-radius: 16px; margin-left: auto; margin-right: auto; }
+
 .rounded { border-radius: 16px; }
 
 body { background-color: #0a0a0a; height: none; }
