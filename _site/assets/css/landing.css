@@ -336,9 +336,7 @@ a:hover { text-decoration: underline; }
 
 #pic { background-color: #d4d4d4; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(white, white); }
 
-.img { box-shadow: 0 0 2px 0 rgba(72, 72, 72, 0.485); }
-
-.img { background-color: #d7d5c9; width: 100%; border-radius: 16px; }
+.img { box-shadow: 0 0 2px 0 rgba(72, 72, 72, 0.485); background-color: #d7d5c9; width: 100%; border-radius: 16px; }
 
 .rounded { border-radius: 16px; }
 
