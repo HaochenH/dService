@@ -121,7 +121,7 @@ p {
 }
 
 // hide top navigation bar when on mobile devices
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .navbar {
     display: none;
   }
@@ -129,14 +129,14 @@ p {
 
 #homepage-title {
   animation-name: title-appear;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
 
 @keyframes title-appear {
   from {
     opacity: 0;
-    transform: translateY(-4%);
+    transform: translateY(-10%);
   }
   to {
     opacity: 1;
@@ -146,14 +146,14 @@ p {
 
 #content {
   animation-name: content-appear;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in-out;
 }
 
 @keyframes content-appear {
   from {
     opacity: 0;
-    transform: translateY(2.5%);
+    transform: translateY(4%);
   }
   to {
     opacity: 1;

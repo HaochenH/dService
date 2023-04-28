@@ -9,20 +9,34 @@
     <meta name="theme-color" content="#2395c2">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     {% include head-custom.html %}
     
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-      <h2 class="project-tagline">Welcome to <a href="{{ site.baseurl }}/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2>
-      <div class="navbar">
-        {% include navigation-bar.html %}
-      </div>
-      
+    <header class="nav animate__animated animate__fadeIn">
+      <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <a href="#" class="flex items-center">
+            <img src="{{ site.baseurl }}/assets/images/logo-transparent.png" alt="DAfinity" class="logo-small">
+            <div class="navbar pt-4">
+              {% include navigation-bar.html %}
+            </div>
+            <!-- <span class="self-center text-xl font-medium whitespace-nowrap text-white">DAfinity</span> -->
+          </a>
+        </div>
+      </nav>
     </header>
-    <main id="content" class="main-content animate__animated animate__fadeIn" role="main">
+    <header class="page-header" role="banner">
+
+      <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
+      <!-- <h2 class="project-tagline">Welcome to <a href="{{ site.baseurl }}/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2> -->
+      <!-- <div class="navbar">
+
+      </div> -->
+      <h1 class="project-name pt-24">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    </header>
+    <main id="content" class="main-content" role="main">
       {{ content }}
       {% include site-footer.html %}
     </main>

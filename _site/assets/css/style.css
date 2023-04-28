@@ -324,10 +324,26 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { display: none; }
 
-.page-header { background-color: rgba(133, 133, 133, 0.5); background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(88, 88, 88, 0.712), rgba(36, 36, 36, 0.722)), url(../images/earth-2254769-dark-min.jpg); }
+.nav { position: fixed; background-color: rgba(255, 255, 255, 0.75); width: 100%; backdrop-filter: blur(10px); }
 
-.btn { background-color: #50505032; border-color: #c2c2c2ae; color: #f2f2f2; font-weight: 500; }
+.nav .btn { background-color: rgba(255, 255, 255, 0); border-color: #5164b2; color: #485ba5; font-weight: 700; transition: 0.3s; }
+
+.page-header { background-color: rgba(133, 133, 133, 0.5); background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(239, 239, 242, 0.83), rgba(228, 226, 246, 0.936)), url(../images/unsplash-speed-sb7RUrRMaC4.avif); }
+
+header h1 { color: #5f589d; }
+
+.btn { background-color: #50505032; border-color: #b0b0b0; color: #f2f2f2; font-weight: 500; }
 
 .logo { width: 130px; height: 130px; }
 
-.site-footer-owner { font-weight: 550; color: #666ca5; }
+.logo-small { width: 88px; height: 88px; }
+
+.site-footer-owner { font-weight: 550; color: #797d9f; }
+
+#content h3, #content h2, #content h1 { font-weight: 700; color: #6c65b1; }
+
+#content p { color: #575757; font-weight: 400; }
+
+#content a { color: #ab556d; color: #985d5d; font-weight: 700; transition: 1s; }
+
+@media (max-width: 900px) { .navbar { display: none; } }

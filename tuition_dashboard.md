@@ -1,4 +1,4 @@
-## Tuition Table
+## Tuition Dashboard
 Tuition(USD$) per year of data science programs
 <img width="954" alt="tuition_ranking1" src="https://user-images.githubusercontent.com/101531662/231050172-76a9beca-c2a3-4ef0-83b9-89af5543929c.png">
 <!-- <img width="1188" alt="tuition_ranking2" src="https://user-images.githubusercontent.com/101531662/231050189-b72cb287-7977-4694-a3a3-7c4dba49511b.png"> -->

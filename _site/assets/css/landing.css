@@ -356,12 +356,12 @@ h2 { font-weight: 500; color: #cacffc; }
 
 p { color: white; }
 
-@media (max-width: 850px) { .navbar { display: none; } }
-#homepage-title { animation-name: title-appear; animation-duration: 0.5s; animation-timing-function: ease-in-out; }
+@media (max-width: 900px) { .navbar { display: none; } }
+#homepage-title { animation-name: title-appear; animation-duration: 1s; animation-timing-function: ease-in-out; }
 
-@keyframes title-appear { from { opacity: 0; transform: translateY(-4%); }
+@keyframes title-appear { from { opacity: 0; transform: translateY(-10%); }
   to { opacity: 1; transform: translateY(0%); } }
-#content { animation-name: content-appear; animation-duration: 0.5s; animation-timing-function: ease-in-out; }
+#content { animation-name: content-appear; animation-duration: 1s; animation-timing-function: ease-in-out; }
 
-@keyframes content-appear { from { opacity: 0; transform: translateY(2.5%); }
+@keyframes content-appear { from { opacity: 0; transform: translateY(4%); }
   to { opacity: 1; } }

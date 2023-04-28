@@ -25,6 +25,7 @@
     <meta name="theme-color" content="#2395c2">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <!-- You can set your favicon here -->
@@ -33,45 +34,43 @@
     
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">About Us</h1>
-      <!-- <h2 class="project-tagline">Welcome to dService!</h2> -->
-      <h2 class="project-tagline">Welcome to <a href="/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2>
-      <div class="navbar">
-        <div class="links">
-    <a class="btn" href="/home">Home</a>
+    <header class="nav animate__animated animate__fadeIn">
+      <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <a href="#" class="flex items-center">
+            <img src="/assets/images/logo-transparent.png" alt="DAfinity" class="logo-small">
+            <div class="navbar pt-4">
+              <div class="links">
+    <a class="btn" href="/index">Home</a>
     <a class="btn" href="/map">Map</a>
-    <a class="btn" href="/tuition_table">Tuition Table</a>
-    <a class="btn" href="/career">Career</a>
     <a class="btn" href="/school_navigator">School Navigator</a>
+    <a class="btn" href="/tuition_dashboard">Tuition Dashboard</a>
+    <!-- <a class="btn" href="/career">Career</a> -->
+    <a class="btn" href="/employment">Employment</a>
     <!-- <a class="btn" href="/program_comparison_tool">Program Comparison Tool</a> -->
     <a class="btn" href="/aboutus">About us</a>
   </div>
-      </div>
-      
+            </div>
+            <!-- <span class="self-center text-xl font-medium whitespace-nowrap text-white">DAfinity</span> -->
+          </a>
+        </div>
+      </nav>
     </header>
-    <main id="content" class="main-content animate__animated animate__fadeIn" role="main">
+    <header class="page-header" role="banner">
+
+      <!-- <h2 class="project-tagline">Welcome to dService!</h2> -->
+      <!-- <h2 class="project-tagline">Welcome to <a href="/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2> -->
+      <!-- <div class="navbar">
+
+      </div> -->
+      <h1 class="project-name pt-24">About Us</h1>
+    </header>
+    <main id="content" class="main-content" role="main">
       <h1 id="about-us"><strong>About Us</strong></h1>
 
-<h2 id="our-team">Our Team:</h2>
+<h1> Our Team: </h1>
 
 <p><img width="1078" alt="image" src="https://user-images.githubusercontent.com/101531662/215262580-9f834ade-1da6-4b7e-9e56-93035f37fcce.png" /></p>
-
-<h2 id="scope">Scope</h2>
-
-<p>Scopes on our projects are generally limited. We split features into multiple versions and some of our projects are MVPs (Minimum viable products). This space is for you to demonstrate that scope and mention the features/screens you have included and excluded from the scope.</p>
-
-<h2 id="limitations">Limitations</h2>
-
-<p>This is where to clarify the restrictions. It may seem similar to the scope but this space should be used to explain only the limitations. Be it technical or operational limitations, readers should get the idea of the limit they can reach through this sector.</p>
-
-<p>E.g. “We are not able to do the feature A because there were not enough researches. We are waiting for the results of this version to include that feature.”</p>
-
-<h2 id="resources">Resources</h2>
-<ul>
-  <li>Icon Source: <a href="https://undraw.co/search">Undraw</a></li>
-  <li>Image Source: <a href="https://unsplash.com/">Unsplash</a></li>
-</ul>
 
       <footer class="site-footer">
     <img src="/assets/images/logo-transparent.png" alt="DAfinity" class="logo">

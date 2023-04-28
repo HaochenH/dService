@@ -25,6 +25,7 @@
     <meta name="theme-color" content="#2395c2">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <!-- You can set your favicon here -->
@@ -33,27 +34,39 @@
     
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">dService</h1>
-      <!-- <h2 class="project-tagline">Welcome to dService!</h2> -->
-      <h2 class="project-tagline">Welcome to <a href="/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2>
-      <div class="navbar">
-        <div class="links">
-    <a class="btn" href="/home">Home</a>
+    <header class="nav animate__animated animate__fadeIn">
+      <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+          <a href="#" class="flex items-center">
+            <img src="/assets/images/logo-transparent.png" alt="DAfinity" class="logo-small">
+            <div class="navbar pt-4">
+              <div class="links">
+    <a class="btn" href="/index">Home</a>
     <a class="btn" href="/map">Map</a>
-    <a class="btn" href="/tuition_table">Tuition Table</a>
-    <a class="btn" href="/career">Career</a>
     <a class="btn" href="/school_navigator">School Navigator</a>
+    <a class="btn" href="/tuition_dashboard">Tuition Dashboard</a>
+    <!-- <a class="btn" href="/career">Career</a> -->
+    <a class="btn" href="/employment">Employment</a>
     <!-- <a class="btn" href="/program_comparison_tool">Program Comparison Tool</a> -->
     <a class="btn" href="/aboutus">About us</a>
   </div>
-      </div>
-      
+            </div>
+            <!-- <span class="self-center text-xl font-medium whitespace-nowrap text-white">DAfinity</span> -->
+          </a>
+        </div>
+      </nav>
     </header>
-    <main id="content" class="main-content animate__animated animate__fadeIn" role="main">
-      <p><a href="/index" style=""> &lt; Back</a></p>
+    <header class="page-header" role="banner">
 
-<h3>Want to explore Data Science Master's programs across the United States?</h3>
+      <!-- <h2 class="project-tagline">Welcome to dService!</h2> -->
+      <!-- <h2 class="project-tagline">Welcome to <a href="/index" style="color:rgb(210, 216, 255); text-decoration:none;">dService</a></h2> -->
+      <!-- <div class="navbar">
+
+      </div> -->
+      <h1 class="project-name pt-24">dService</h1>
+    </header>
+    <main id="content" class="main-content" role="main">
+      <h3>Want to explore Data Science Master's programs across the United States?</h3>
 
 <p>Our interactive map allows you to filter by category or program categories, and get a comprehensive overview of your options.</p>
 
@@ -63,27 +76,20 @@
 
 <p><a href="/map" style="">View the map &gt; </a></p>
 
+<hr />
+
 <h3>Concered about tuition costs for pursuing a Master's in Data Science?</h3>
 
-<p>Our tuition table provides a comprehensive overview of tuition fees for various programs, allowing you to compare costs and plan your finances accordingly.</p>
+<p>Our tuition dashboard provides a comprehensive overview of tuition fees for various programs, allowing you to compare costs and plan your finances accordingly.</p>
 
 <!-- undraw_savings_re_eq4w.svg -->
-<p><a href="/tuition_table">
+<p><a href="/tuition_dashboard">
 <img src="/assets/icons/undraw_savings_re_eq4w.svg" style="" width="150" />
 </a></p>
 
-<p><a href="/tuition_table" style="">View tuition table &gt; </a></p>
+<p><a href="/tuition_dashboard" style="">Tuition Dashboard &gt; </a></p>
 
-<h3>Interested in learning about potential career paths in data science?</h3>
-
-<p>Our career page provides a comprehensive overview of career paths in data science, and the skills required to pursue them.</p>
-
-<!-- undraw_resume_re_hkth.svg -->
-<p><a href="/career">
-<img src="/assets/icons/undraw_resume_re_hkth.svg" style="" width="150" />
-</a></p>
-
-<p><a href="/career" style="">View career &gt; </a></p>
+<hr />
 
 <h3>Interested in finding the perfect Data Science Master's program that meets your needs?</h3>
 
@@ -94,7 +100,24 @@
 <img src="/assets/icons/undraw_success_factors_re_ce93.svg" style="" width="150" />
 </a></p>
 
-<p><a href="/school_navigator" style="">View School Navigator &gt; </a></p>
+<p><a href="/school_navigator" style="">School Navigator &gt; </a></p>
+
+<hr />
+
+<h3>Interested in learning about potential career paths in data science?</h3>
+
+<p>Our career page provides a comprehensive overview of career paths in data science, and the skills required to pursue them.</p>
+
+<!-- undraw_resume_re_hkth.svg -->
+<p><a href="/career">
+<img src="/assets/icons/undraw_resume_re_hkth.svg" style="" width="150" />
+</a></p>
+
+<p><a href="/employment" style="">Employment of data scientists &gt; </a></p>
+
+<p><a href="/career" style="">View career paths &gt; </a></p>
+
+<hr />
 
 <h3>Browse through program categories, tuition, fees, cities, and more on our dataset.</h3>
 <p>Our table will help you make an informed decision about your education.
@@ -102,10 +125,14 @@
 
 <!-- undraw_spreadsheet_re_cn18.svg -->
 <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4Ny9bjIfbjo_qqs92rdZWdBLCjDFPqM9kKDZSZR_cHB-SuarE_3MWiRBMgZGPm4NUx6eVRVL9jtKR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
-<img src="/assets/icons/undraw_spreadsheet_re_cn18.svg" style="" width="150" />
+<img src="/assets/icons/undraw_location_review_d5qn.svg" style="" width="150" />
 </a></p>
 
 <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4Ny9bjIfbjo_qqs92rdZWdBLCjDFPqM9kKDZSZR_cHB-SuarE_3MWiRBMgZGPm4NUx6eVRVL9jtKR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="">View full dataset &gt; </a></p>
+
+<p><br /></p>
+
+<p><a href="/index" style=""> &lt; Back to landing page </a></p>
 
       <footer class="site-footer">
     <img src="/assets/images/logo-transparent.png" alt="DAfinity" class="logo">

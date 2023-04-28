@@ -21,7 +21,7 @@
   <header class="nav animate__animated animate__fadeIn">
     <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-        <a href="#" class="flex items-center">
+        <a href="{{ site.baseurl }}/index" class="flex items-center">
           <img src="{{ site.baseurl }}/assets/images/logo-transparent-darkmode.png" alt="DAfinity" class="logo-small">
           <div class="navbar pt-4">
             {% include navigation-bar.html %}
@@ -90,9 +90,11 @@
     <div class="footer pb-2">
       <img src="{{ site.baseurl }}/assets/images/logo-transparent-darkmode.png" alt="DAfinity" class="logo">
       <span class="site-footer-owner pt-4 pb-10">© {{ site.time | date: '%Y' }} DAfinity Data Science Programs Guide.
-        Pictures by
-        <!-- <a href="https://unsplash.com/@nasa" style="text-decoration: underline">NASA</a> on -->
-        <a href="https://unsplash.com" style="text-decoration: underline">Unsplash</a>.</span>
+        Image Source:
+        <a href="https://unsplash.com" style="text-decoration: underline" target="_blank">Unsplash</a>;
+        Icon Source:
+        <a href="https://undraw.co/illustrations" style="text-decoration: underline" target="_blank">UnDraw</a>.
+      </span>
         {% include navigation-bar.html %}
     </div>
   </footer>

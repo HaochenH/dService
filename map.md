@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+## Map of Data Science Graduate Programs in the US
 
 <!-- ### Welcome to dService! -->
 
@@ -25,7 +25,7 @@ layout: default
 
 <!-- <a href="{{ site.baseurl }}/index" style=""> < Back</a> -->
 
-<h2>Map of Data Science Graduate Programs in the US</h2>
+<!-- <h2>Map of Data Science Graduate Programs in the US</h2> -->
 
 <iframe src="https://map.proxi.co/r/Slg-1l4dDwnqvWMeT8_5" class="map mt-4" allow="geolocation; clipboard-write"
       width="100%" height="625px" style="border-width: 0px;" allowfullscreen></iframe>

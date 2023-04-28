@@ -6,19 +6,41 @@
   display: none;
 }
 
-// defined on main website. only adding it for testing
+.nav{
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  //background blur
+  backdrop-filter: blur(10px);
+}
+
+.nav .btn {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(81, 100, 178);
+  color: rgb(72, 91, 165);
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+
 .page-header {
   background-color: rgba(133, 133, 133, 0.5);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   // backdrop-filter: blur(10px);
-  background-image: linear-gradient(rgba(88, 88, 88, 0.712), rgba(36, 36, 36, 0.722)), url(../images/earth-2254769-dark-min.jpg);
+  // background-image: linear-gradient(rgba(108, 103, 155, 0.531), rgba(186, 186, 186, 0.588)), url(../images/earth-2254769-dark-min.jpg);
+  background-image: linear-gradient(rgba(239, 239, 242, 0.83), rgba(228, 226, 246, 0.936)), url(../images/unsplash-speed-sb7RUrRMaC4.avif);
+  // height: 45vh; 
+}
+
+header h1{
+  color: rgb(95, 88, 157);
 }
 
 .btn {
   background-color: #50505032;
-  border-color: #c2c2c2ae;
+  border-color: rgb(176, 176, 176);
   color: rgb(242, 242, 242);
   font-weight: 500;
 }
@@ -28,7 +50,37 @@
   height: 130px;
 }
 
+.logo-small {
+  width: 88px;
+  height: 88px;
+}
+
 .site-footer-owner {
   font-weight: 550;
-  color: rgb(102, 108, 165);
+  color: rgb(121, 125, 159);
+}
+
+#content h3, #content h2, #content h1 {
+  font-weight: 700;
+  color: rgb(108, 101, 177);
+}
+
+#content p {
+  color: rgb(87, 87, 87);
+  font-weight: 400;
+}
+
+#content a {
+  color: rgb(171, 85, 109);
+  // background-color: rgb(171, 85, 109);
+  // border-color: rgb(92, 92, 92);
+  color: rgb(152, 93, 93);
+  font-weight: 700;
+  transition: 1s;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
 }
