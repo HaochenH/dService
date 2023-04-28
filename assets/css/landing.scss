@@ -13,6 +13,7 @@
   //background blur
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(64px); 
+  z-index: 9999;
 }
 
 .btn {
@@ -31,14 +32,11 @@
   transition: 0.3s;
 }
 
-// defined on main website. only adding it for testing
 #header{
   background-color: rgb(49, 49, 49);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  // background-image: linear-gradient(-45deg, rgba(238,119,82,0.15), rgba(231,60,126,0.15), rgba(35,166,213,0.15), rgba(35,213,171,0.15)), url(../images/earth-1.avif);
-  //change to only white mask
   background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1.avif);
   // height: 65vh;
 }

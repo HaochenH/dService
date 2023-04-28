@@ -324,7 +324,7 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { display: none; }
 
-.nav { position: fixed; background-color: rgba(27, 27, 27, 0.013); width: 100%; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(64px); }
+.nav { position: fixed; background-color: rgba(27, 27, 27, 0.013); width: 100%; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(64px); z-index: 9999; }
 
 .btn { background-color: #22222232; border-color: #c2c2c2ae; color: #e0e0e0; font-weight: 600; transition: 0.3s; }
 
