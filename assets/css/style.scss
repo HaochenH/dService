@@ -14,7 +14,7 @@
   backdrop-filter: blur(10px);
 }
 
-.nav .btn {
+.nav .btn, .nav-mobile .btn {
   background-color: rgba(255, 255, 255, 0);
   border-color: rgb(81, 100, 178);
   color: rgb(72, 91, 165);
@@ -34,7 +34,7 @@
   // height: 45vh; 
 }
 
-header h1{
+header h1 {
   color: rgb(95, 88, 157);
 }
 
@@ -79,8 +79,33 @@ header h1{
   transition: 1s;
 }
 
-@media (max-width: 900px) {
+.nav-mobile {
+  display: none;
+}
+
+#mobile-menu {
+  color: rgb(95, 88, 157);
+  font-weight: 700;
+  transition: 0.3s;
+  text-decoration: underline;
+  display: none;
+}
+
+@media (max-width: 960px) {
   .navbar {
+    padding: 0;
+  }
+  .nav {
+    position: relative;
     display: none;
   }
+  .page-header {
+    height: 380px; 
+  }
+  .nav-mobile {
+    display: block;
+  }
+  #mobile-menu {
+    display: block;
+  }  
 }

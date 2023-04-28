@@ -326,7 +326,7 @@ a:hover { text-decoration: underline; }
 
 .nav { position: fixed; background-color: rgba(255, 255, 255, 0.75); width: 100%; backdrop-filter: blur(10px); }
 
-.nav .btn { background-color: rgba(255, 255, 255, 0); border-color: #5164b2; color: #485ba5; font-weight: 700; transition: 0.3s; }
+.nav .btn, .nav-mobile .btn { background-color: rgba(255, 255, 255, 0); border-color: #5164b2; color: #485ba5; font-weight: 700; transition: 0.3s; }
 
 .page-header { background-color: rgba(133, 133, 133, 0.5); background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(239, 239, 242, 0.83), rgba(228, 226, 246, 0.936)), url(../images/unsplash-speed-sb7RUrRMaC4.avif); }
 
@@ -346,4 +346,12 @@ header h1 { color: #5f589d; }
 
 #content a { color: #ab556d; color: #985d5d; font-weight: 700; transition: 1s; }
 
-@media (max-width: 900px) { .navbar { display: none; } }
+.nav-mobile { display: none; }
+
+#mobile-menu { color: #5f589d; font-weight: 700; transition: 0.3s; text-decoration: underline; display: none; }
+
+@media (max-width: 960px) { .navbar { padding: 0; }
+  .nav { position: relative; display: none; }
+  .page-header { height: 380px; }
+  .nav-mobile { display: block; }
+  #mobile-menu { display: block; } }

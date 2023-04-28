@@ -356,7 +356,7 @@ h2 { font-weight: 500; color: #cacffc; }
 
 p { color: white; }
 
-@media (max-width: 900px) { .navbar { display: none; } }
+@media (max-width: 1000px) { .navbar { display: none; } }
 #homepage-title { animation-name: title-appear; animation-duration: 1s; animation-timing-function: ease-in-out; }
 
 @keyframes title-appear { from { opacity: 0; transform: translateY(-10%); }

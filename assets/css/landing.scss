@@ -120,8 +120,7 @@ p {
   color: rgb(255, 255, 255);
 }
 
-// hide top navigation bar when on mobile devices
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .navbar {
     display: none;
   }
