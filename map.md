@@ -10,6 +10,10 @@ layout: default
 > Use the filter buttons on the top to narrow down the schools displayed on the map. Select the program kind(s) you're interested in, and the map will update to display only the schools that match your criteria. 
 > Click on a school to get directions, or view more information about that school. Try going straight to their websites!
 
+<br>
+<a href="https://map.proxi.co/r/Slg-1l4dDwnqvWMeT8_5"
+target="_blank">Open in a new tab > </a>
+
 <!-- ### Welcome to dService! -->
 
 <!-- ### <a href="{{ site.baseurl }}/whydatascience" style="color:#159957; text-decoration:underline"> Why Data Science? </a> -->
