@@ -11,7 +11,8 @@
   background-color: rgba(248, 249, 255, 0.78);
   width: 100%;
   //background blur
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(64px); 
 }
 
 .nav .btn, .nav-mobile .btn {
