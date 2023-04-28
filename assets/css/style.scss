@@ -22,7 +22,6 @@
   transition: 0.3s;
 }
 
-
 .page-header {
   background-color: rgba(133, 133, 133, 0.5);
   background-size: cover;
@@ -60,9 +59,26 @@ header h1 {
   color: rgb(121, 125, 159);
 }
 
+.map {
+  background-color: rgb(215, 213, 201);
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 0 12px 0 rgba(135, 159, 255, 0.801);
+}
+
+//reduce padding
+main#content {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
 #content h3, #content h2, #content h1 {
   font-weight: 700;
   color: rgb(108, 101, 177);
+}
+
+#content h2 {
+  display: none;
 }
 
 #content p {

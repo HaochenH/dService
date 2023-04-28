@@ -340,7 +340,13 @@ header h1 { color: #5f589d; }
 
 .site-footer-owner { font-weight: 550; color: #797d9f; }
 
+.map { background-color: #d7d5c9; width: 100%; border-radius: 16px; box-shadow: 0 0 12px 0 rgba(135, 159, 255, 0.801); }
+
+main#content { padding-left: 1vw; padding-right: 1vw; }
+
 #content h3, #content h2, #content h1 { font-weight: 700; color: #6c65b1; }
+
+#content h2 { display: none; }
 
 #content p { color: #575757; font-weight: 400; }
 
