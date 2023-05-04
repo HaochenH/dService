@@ -1,3 +1,5 @@
+<img src="assets\images\logo.jpg" alt="logo" style="width:200px;"/>
+
 # dService by DAfinity
 ### A UW Information School Capstone Project 
 
@@ -10,9 +12,7 @@ dService is an innovative platform designed to empower international students in
 
 ## Getting Started
 
-To get started with dService, please follow the steps below:
-
-[https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+To get started with dService, please follow the steps in [this page](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
 The site should now be available at `http://localhost:4000`.
 

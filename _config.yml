@@ -4,7 +4,7 @@ show_downloads: false
 github_username:  haochenh
 theme: jekyll-theme-cayman
 title: dService
-description: Welcome to dService!
+description: Welcome to dService, an innovative platform to help students interested in data science with personalized insights and detailed information about U.S. Data Science Master's programs.
 # email: 
 # domain:
 # baseurl: "" # the subpath of your site, e.g. /blog

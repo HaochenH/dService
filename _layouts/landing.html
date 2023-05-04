@@ -12,8 +12,6 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="stylesheet" href="/assets/css/landing.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- <script src="{{ site.baseurl }}/assets/js/script.js"></script> -->
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/landing.css"> -->
   {% include head-custom.html %}
 </head>
 
@@ -26,7 +24,6 @@
           <div class="navbar pt-4">
             {% include navigation-bar.html %}
           </div>
-          <!-- <span class="self-center text-xl font-medium whitespace-nowrap text-white">DAfinity</span> -->
         </a>
       </div>
     </nav>
@@ -36,8 +33,6 @@
       <h1 class="text-6xl p-8 font-medium page-title" id="homepage-title">Navigate Your Data Science Journey with <span
           style="color:rgb(158, 169, 254); font-weight:650">dService</span></h1>
       <h2 class="text-2xl p-4 pb-8" id="homepage-title" style="font-weight:350;color:rgba(255, 255, 255, 0.931)">
-        <!-- <span
-          style="color:rgb(158, 169, 254); font-weight:500">dService</span>  -->
         An innovative platform designed to
         empower international students interested in data science with personalized insights and detailed information
         about U.S. Data Science Master's programs.
@@ -45,7 +40,6 @@
       <a class="btn p-4 mb-8 mt-4" href="{{ site.baseurl }}/home">Try dService&nbsp;&nbsp;➚</a>
       <br>
     </div>
-    <!-- <h2 class="text-md" style="font-weight:500;color:rgb(152, 152, 152)">Scroll down to learn more</h2> -->
   </main>
   <main id="content" class="main-content pt-8" role="main">
     <h2 class="text-2xl pt-4" style="font-weight:500;color:rgb(202, 207, 252)">Why Data Science?</h2>
@@ -63,8 +57,6 @@
     <div class="pic">
       <h2 class="text-xl pb-3 text-slate-600" style="font-weight:500">Tuition(USD$) per year ranking of data science programs
       </h2>
-      <!-- <img class="map" width="954" alt="tuition_ranking1" src="https://user-images.githubusercontent.com/101531662/231050172-76a9beca-c2a3-4ef0-83b9-89af5543929c.png"> -->
-      <!-- <img id="ranking-img" alt="tuition_ranking1" src="{{ site.baseurl }}/assets/images/tuition_ranking1.png"> -->
       <img id="ranking-img" alt="tuition_ranking2" src="https://user-images.githubusercontent.com/101531662/231050189-b72cb287-7977-4694-a3a3-7c4dba49511b.png">
       <br>
     </div>
@@ -84,7 +76,8 @@
       We are creating a platform or resource center for international students to access information and resources on data science graduate programs & careers.
     </p>
     <h2 class="text-2xl pt-2" style="font-weight:500;color:rgb(202, 207, 252)">Who are DAFinity?</h2>
-    <p>We are four international students who are currently applying for data science programs and dedicating to help others with data. </p><a href="{{ site.baseurl }}/aboutus" style="font-weight:600;color:rgba(202, 207, 252, 0.78)"> Learn More > </a>
+    <p>We are four international students who are currently applying for data science programs and dedicating to help others with data. </p><a href="{{ site.baseurl }}/aboutus" style="font-weight:600;color:rgba(202, 207, 252, 0.9)"> Learn More > </a>
+    {{ content }}
   </main>
   <footer id="content" class="main-content" role="main">
     <div class="footer pb-2">
