@@ -37,7 +37,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1.avif);
+  background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1-min.png);
   // height: 65vh;
 }
 
@@ -106,9 +106,18 @@ p {
   color: rgb(255, 255, 255);
 }
 
+#auto-change-image {
+  height:500px;
+  width:100%;
+  object-fit:cover
+}
+
 @media (max-width: 1000px) {
   .navbar {
     display: none;
+  }
+  #auto-change-image {
+    height: 350px;
   }
 }
 

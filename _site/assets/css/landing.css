@@ -330,7 +330,7 @@ a:hover { text-decoration: underline; }
 
 .nav .btn { background-color: rgba(255, 255, 255, 0); border-color: #788ee6; color: #7388dd; font-weight: 700; transition: 0.3s; }
 
-#header { background-color: #313131; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1.avif); }
+#header { background-color: #313131; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1-min.png); }
 
 .header-content { padding-top: 10vh; padding-bottom: 5vh; }
 
@@ -354,7 +354,10 @@ h2 { font-weight: 500; color: #cacffc; }
 
 p { color: white; }
 
-@media (max-width: 1000px) { .navbar { display: none; } }
+#auto-change-image { height: 500px; width: 100%; object-fit: cover; }
+
+@media (max-width: 1000px) { .navbar { display: none; }
+  #auto-change-image { height: 350px; } }
 #homepage-title { animation-name: title-appear; animation-duration: 1s; animation-timing-function: ease-in-out; }
 
 @keyframes title-appear { from { opacity: 0; transform: translateY(-10%); }
