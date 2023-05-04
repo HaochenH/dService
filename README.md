@@ -1,10 +1,5 @@
-# A UW Information School Capstone Project
-# DAfinity / dService
-
-
-# dService
-
-**Navigate Your Data Science Journey with dService**
+# dService by DAfinity
+### A UW Information School Capstone Project 
 
 dService is an innovative platform designed to empower international students interested in data science with personalized insights and detailed information about U.S. Data Science Master's programs.
 

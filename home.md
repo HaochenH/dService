@@ -21,14 +21,12 @@ Our tuition dashboard provides a comprehensive overview of tuition fees for vari
 </a> 
 
 <a href="{{ site.baseurl }}/tuition_dashboard" style="">Tuition Dashboard > </a>
-
 <hr>
 
 <h3>Interested in finding the perfect Data Science Master's program that meets your needs?</h3> 
 
 Our School Navigator feature helps you narrow down your search. 
 
-<!-- undraw_success_factors_re_ce93.svg -->
 <a href="{{ site.baseurl }}/school_navigator">
 <img src="{{ site.baseurl }}/assets/icons/undraw_success_factors_re_ce93.svg" style="" width="150">
 </a>
@@ -41,7 +39,6 @@ Our School Navigator feature helps you narrow down your search.
 
 Our career page provides a comprehensive overview of career paths in data science, and the skills required to pursue them.
 
-<!-- undraw_resume_re_hkth.svg -->
 <a href="{{ site.baseurl }}/career">
 <img src="{{ site.baseurl }}/assets/icons/undraw_resume_re_hkth.svg" style="" width="150">
 </a>
@@ -54,9 +51,7 @@ Our career page provides a comprehensive overview of career paths in data scienc
 
 <h3>Browse through program categories, tuition, fees, cities, and more on our dataset.</h3>
 Our table will help you make an informed decision about your education.
-<!-- <iframe width="100%" height="500px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4Ny9bjIfbjo_qqs92rdZWdBLCjDFPqM9kKDZSZR_cHB-SuarE_3MWiRBMgZGPm4NUx6eVRVL9jtKR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" scrolling="no"></iframe> --> 
 
-<!-- undraw_spreadsheet_re_cn18.svg -->
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS4Ny9bjIfbjo_qqs92rdZWdBLCjDFPqM9kKDZSZR_cHB-SuarE_3MWiRBMgZGPm4NUx6eVRVL9jtKR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
 <img src="{{ site.baseurl }}/assets/icons/undraw_location_review_d5qn.svg" style="" width="150">
 </a>
