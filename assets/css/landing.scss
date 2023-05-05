@@ -11,8 +11,8 @@
   background-color: rgba(27, 27, 27, 0.013);
   width: 100%;
   //background blur
+  -webkit-backdrop-filter: blur(64px);
   backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(64px); 
   z-index: 9999;
 }
 
