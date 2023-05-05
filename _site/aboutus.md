@@ -3,24 +3,40 @@
 <img src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:200px">
 
 <h3 style="font-size:28px"> Haochen Hu </h3>
-> Website UX Designer & Front-End Developer
-
+> UI & UX Designer
+> 
+> Back-End/Front-End Developer
+>
+> Database Engineer
+> 
 > Data Visualize
 
 <h3 style="font-size:28px"> Yuanjie Zhu </h3>
-> Back-End/Front-End Developer 
-
+> Back-End/Front-End Developer
+> 
+> Data Scientist 
+>
+> Database Engineer
+> 
 > Data Visualize
 
 <h3 style="font-size:28px"> Runhan Chen </h3>
 > Product Manager 
-
+> 
 > UI & UX Designer
+> 
+> Database Engineer
+> 
+> Data Scientist
 
 <h3 style="font-size:28px"> Jinrui Fang </h3>
 > Data Scientist
-
-> Data Visualize
+> 
+> Data Visualize 
+> 
+> Database Engineer
+>
+> User Researcher
 
 <h3 style="font-size:18px"> Open Source </h3>
 Our code is open source and available on <a style="color: rgb(95, 88, 157); font-weight:400" href="https://github.com/HaochenH/dService" target="_blank">GitHub</a>. We welcome contributions from the community to help us improve dService. Please see our GitHub repository for more information.

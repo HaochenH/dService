@@ -5,7 +5,6 @@
 
 dService is an innovative platform designed to empower international students interested in data science with personalized insights and detailed information about U.S. Data Science Master's programs.
 
-
 ## Website Demo:
 
 [https://dService.pages.dev/](https://dService.pages.dev/)
@@ -34,8 +33,9 @@ dService is released under the [GNU General Public License](https://www.gnu.org/
 
 ## Presentation Deck
 
-View our final presentation deck [here](https://docs.google.com/presentation/d/13MfmjxQgIcqpb_0E0QXAciSdQLIOZ3pZ6JhoiVPSpTo/edit?usp=sharing).
+View our final presentation deck [here](/files/Presentation%20Deck.pdf).
 
-## Final Product
+<img src="/files/Problem%20Context.png" alt="Problem Context" style="width:600px;"/> 
 
-View our final product [here](https://dService.pages.dev/).
+<img src="/files/Key%20Research%20Insights.png" alt="Key Research Insights" style="width:600px;"/>
+
