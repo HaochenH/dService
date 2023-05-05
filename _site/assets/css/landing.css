@@ -354,6 +354,8 @@ h2 { font-weight: 500; color: #cacffc; }
 
 p { color: white; }
 
+#grid-functions { color: white; }
+
 #auto-change-image { height: 500px; width: 100%; object-fit: cover; }
 
 #homepage-title { animation-name: title-appear; animation-duration: 1s; animation-timing-function: ease-in-out; }
