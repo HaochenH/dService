@@ -1,6 +1,6 @@
 ## About DAfinity
 
-<img class="pb-2" src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:200px">
+<img class="pb-2" src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:218px">
 
 <div class="grid lg:grid-cols-2 gap-6">
   <div class="p-6 bg-gray-100 rounded-lg">
@@ -42,7 +42,7 @@
 </div> 
 
 <h3 style="font-size:18px"> Open Source </h3>
-Our code is open source and available on <a style="color: rgb(95, 88, 157); font-weight:400" href="https://github.com/HaochenH/dService" target="_blank">GitHub</a>. We welcome contributions from the community to help us improve dService. Please see our GitHub repository for more information.
+Our code is open source and available on <a style="color: rgb(95, 88, 157); font-weight:500" href="https://github.com/HaochenH/dService" target="_blank">GitHub</a>. We welcome contributions from the community to help us improve dService. Please see our GitHub repository for more information.
 
 <h3 style="font-size:18px"> Disclaimer </h3>
 Please note that dService was developed as a capstone project by students in the Information School at the University of Washington, and while we have taken great care to ensure the accuracy and completeness of the information presented, there may be errors or omissions. We cannot guarantee the accuracy, completeness, timeliness, reliability, suitability, or availability of the information presented on dService, and we expressly disclaim any liability for any errors or omissions in the information presented.

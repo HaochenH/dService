@@ -31,6 +31,10 @@ We welcome contributions to the dService project! If you would like to contribut
 
 dService is released under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html). See the `LICENSE` file for more information.
 
+## Dataset
+
+View or download our dataset [here](/dataset/dService_DS_Programs_Database.csv).
+
 ## Presentation Deck
 
 View our final presentation deck [here](/files/Presentation%20Deck.pdf).
