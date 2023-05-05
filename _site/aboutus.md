@@ -3,12 +3,12 @@
 <img src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:200px">
 
 <h3 style="font-size:28px"> Haochen Hu </h3>
-> Website UX Designer & Back-end/Front-end Developer
+> Website UX Designer & Front-End Developer
 
 > Data Visualize
 
 <h3 style="font-size:28px"> Yuanjie Zhu </h3>
-> Back-end/Front-end Developer 
+> Back-End/Front-End Developer 
 
 > Data Visualize
 

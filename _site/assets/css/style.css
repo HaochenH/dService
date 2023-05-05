@@ -356,8 +356,10 @@ main#content { padding-left: 1vw; padding-right: 1vw; }
 
 #mobile-menu { color: #5f589d; font-weight: 700; transition: 0.3s; text-decoration: underline; display: none; }
 
+@media (max-width: 1200px) { #content { margin-left: 6vw; margin-right: 6vw; } }
 @media (max-width: 960px) { .navbar { padding: 0; }
   .nav { position: relative; display: none; }
   .page-header { height: 380px; }
   .nav-mobile { display: block; }
-  #mobile-menu { display: block; } }
+  #mobile-menu { display: block; }
+  #content, footer { margin-left: 4vw; margin-right: 4vw; } }

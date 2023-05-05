@@ -112,15 +112,6 @@ p {
   object-fit:cover
 }
 
-@media (max-width: 1000px) {
-  .navbar {
-    display: none;
-  }
-  #auto-change-image {
-    height: 350px;
-  }
-}
-
 #homepage-title {
   animation-name: title-appear;
   animation-duration: 1s;
@@ -151,5 +142,28 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1200px) {
+  #content {
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    display: none;
+  }
+  #auto-change-image {
+    height: 350px;
+  }
+}
+
+@media (max-width: 960px) {
+  #content {
+    margin-left: 4vw;
+    margin-right: 4vw;
   }
 }
