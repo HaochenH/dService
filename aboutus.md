@@ -1,42 +1,45 @@
 ## About DAfinity
 
-<img src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:200px">
+<img class="pb-2" src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:200px">
 
-<h3 style="font-size:28px"> Haochen Hu </h3>
-> UI & UX Designer
-> 
-> Back-End/Front-End Developer
->
-> Database Engineer
-> 
-> Data Visualize
-
-<h3 style="font-size:28px"> Yuanjie Zhu </h3>
-> Back-End/Front-End Developer
-> 
-> Data Scientist 
->
-> Database Engineer
-> 
-> Data Visualize
-
-<h3 style="font-size:28px"> Runhan Chen </h3>
-> Product Manager 
-> 
-> UI & UX Designer
-> 
-> Database Engineer
-> 
-> Data Scientist
-
-<h3 style="font-size:28px"> Jinrui Fang </h3>
-> Data Scientist
-> 
-> Data Visualize 
-> 
-> Database Engineer
->
-> User Researcher
+<div class="grid lg:grid-cols-2 gap-6">
+  <div class="p-6 bg-gray-100 rounded-lg">
+    <h3 class="text-3xl font-semibold mb-2">Haochen Hu</h3>
+    <ul class="list-disc list-inside mb-4">
+      <li>UI & UX Designer</li>
+      <li>Back-End/Front-End Developer</li>
+      <li>Database Engineer</li>
+      <li>Data Visualizer</li>
+    </ul>
+  </div>
+  <div class="p-6 bg-gray-100 rounded-lg">
+    <h3 class="text-3xl font-semibold mb-2">Yuanjie Zhu</h3>
+    <ul class="list-disc list-inside mb-4">
+      <li>Back-End/Front-End Developer</li>
+      <li>Data Scientist</li>
+      <li>Database Engineer</li>
+      <li>Data Visualizer</li>
+    </ul>
+  </div>
+  <div class="p-6 bg-gray-100 rounded-lg">
+    <h3 class="text-3xl font-semibold mb-2">Runhan Chen</h3>
+    <ul class="list-disc list-inside mb-4">
+      <li>Product Manager</li>
+      <li>UI & UX Designer</li>
+      <li>Database Engineer</li>
+      <li>Data Scientist</li>
+    </ul>
+  </div>
+  <div class="p-6 bg-gray-100 rounded-lg">
+    <h3 class="text-3xl font-semibold mb-2">Jinrui Fang</h3>
+    <ul class="list-disc list-inside mb-4">
+      <li>Data Scientist</li>
+      <li>Data Visualizer</li>
+      <li>Database Engineer</li>
+      <li>User Researcher</li>
+    </ul>
+  </div>
+</div> 
 
 <h3 style="font-size:18px"> Open Source </h3>
 Our code is open source and available on <a style="color: rgb(95, 88, 157); font-weight:400" href="https://github.com/HaochenH/dService" target="_blank">GitHub</a>. We welcome contributions from the community to help us improve dService. Please see our GitHub repository for more information.
