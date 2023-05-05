@@ -33,4 +33,9 @@ dService is released under the [GNU General Public License](https://www.gnu.org/
 
 ## Presentation Deck
 
-View our final presentation deck [here](/files/Presentation%20Deck.pdf). 
+View our final presentation deck [here](/files/Presentation%20Deck.pdf).
+
+<img src="/files/Problem%20Context.png" alt="Problem Context" style="width:600px;"/> 
+
+<img src="/files/Key%20Research%20Insights.png" alt="Key Research Insights" style="width:600px;"/>
+
