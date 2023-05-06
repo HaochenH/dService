@@ -41,10 +41,8 @@
   // height: 65vh;
 }
 
-// add padding to the top and bottom of the header
 .header-content {
   padding-top: 10vh;
-  padding-bottom: 5vh;
 }
 
 #pic{
@@ -169,5 +167,31 @@ p {
   #content {
     margin-left: 4vw;
     margin-right: 4vw;
+  }
+  .page-header {
+    padding-bottom: 0;
+  }
+  .page-header h1 {
+    font-size: 2.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .page-header h2 {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+  .page-header .btn {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.nav-footer {
+  display: none;
+}
+@media (max-width: 640px) {
+  .nav-footer {
+    display: block;
   }
 }
