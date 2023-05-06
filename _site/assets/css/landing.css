@@ -332,7 +332,7 @@ a:hover { text-decoration: underline; }
 
 #header { background-color: #313131; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1-min.png); }
 
-.header-content { padding-top: 10vh; padding-bottom: 5vh; }
+.header-content { padding-top: 10vh; }
 
 #pic { background-color: #d4d4d4; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(white, white); }
 
@@ -369,4 +369,8 @@ p { color: white; }
 @media (max-width: 1200px) { #content { margin-left: 6vw; margin-right: 6vw; } }
 @media (max-width: 1000px) { .navbar { display: none; }
   #auto-change-image { height: 350px; } }
-@media (max-width: 960px) { #content { margin-left: 4vw; margin-right: 4vw; } }
+@media (max-width: 960px) { #content { margin-left: 4vw; margin-right: 4vw; }
+  .page-header { padding-bottom: 0; }
+  .page-header h1 { font-size: 2.2rem; padding-bottom: 0.5rem; }
+  .page-header h2 { font-size: 1.2rem; padding-bottom: 0.5rem; line-height: 1.5; }
+  .page-header .btn { font-size: 1.1rem; margin-top: 2rem; margin-bottom: 2.5rem; } }
