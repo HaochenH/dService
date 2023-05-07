@@ -22,10 +22,10 @@
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <a href="/" class="flex items-center" title="dService Home Page" rel="home">
           <img src="{{ site.baseurl }}/assets/images/logo-transparent-darkmode.png" alt="DAfinity" class="logo-small">
-          <div class="navbar pt-4">
-            {% include navigation-bar.html %}
-          </div>
         </a>
+        <div class="navbar pt-4">
+          {% include navigation-bar.html %}
+        </div>
       </div>
     </nav>
   </header>
@@ -124,7 +124,8 @@
       <div class="flex items-center">
         <div class="flex-shrink-0 w-16">
           <a href="{{ site.baseurl }}/school_navigator">
-            <img src="{{ site.baseurl }}/assets/icons/undraw_success_factors_re_ce93.svg" class="w-full" alt="navigator">
+            <img src="{{ site.baseurl }}/assets/icons/undraw_success_factors_re_ce93.svg" class="w-full"
+              alt="navigator">
           </a>
         </div>
         <a href="{{ site.baseurl }}/school_navigator" class="text-lg font-medium ml-4">Find the perfect Data Science
@@ -136,7 +137,8 @@
             <img src="{{ site.baseurl }}/assets/icons/undraw_resume_re_hkth.svg" class="w-full" alt="employment">
           </a>
         </div>
-        <a href="{{ site.baseurl }}/employment" class="text-lg font-medium ml-4">Learn about potential career paths in Data
+        <a href="{{ site.baseurl }}/employment" class="text-lg font-medium ml-4">Learn about potential career paths in
+          Data
           Science and the required skills</a>
       </div>
       <div class="flex items-center">
@@ -168,7 +170,9 @@
         Icon Source:
         <a href="https://undraw.co/illustrations" style="text-decoration: underline" target="_blank">UnDraw</a>.
       </span>
-      {% include navigation-bar.html %}
+      <div class="nav-footer">
+        {% include navigation-bar.html %}
+      </div>
     </div>
   </footer>
 </body>
