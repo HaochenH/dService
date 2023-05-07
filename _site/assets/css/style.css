@@ -354,16 +354,18 @@ main#content { padding-left: 1vw; padding-right: 1vw; }
 
 #content a { color: #ab556d; color: #985d5d; font-weight: 700; transition: 1s; }
 
-.nav-mobile { display: none; }
+.nav-mobile, .mobile-text { display: none; }
 
 #mobile-menu { color: #5f589d; background-color: rgba(255, 255, 255, 0); border-color: #5f589d; transition: 0.3s; text-decoration: underline; display: none; }
 
 @media (max-width: 1200px) { #content { margin-left: 6vw; margin-right: 6vw; }
-  #mobile-menu { margin-bottom: 1rem; } }
-@media (max-width: 960px) { .navbar { padding: 0; }
-  .nav { position: relative; display: none; }
-  .page-header .project-name { padding: 0; }
-  .page-header { height: 180px; }
+  #mobile-menu { margin-bottom: 1rem; }
+  .page-header h1 { padding-top: 4rem; } }
+@media (max-width: 880px) { .navbar { padding: 0; display: none; }
+  .mobile-text { display: block; }
+  .page-header h1 { padding-top: 5rem; }
   .nav-mobile { display: block; }
   #mobile-menu { display: block; }
-  #content, footer { margin-left: 4vw; margin-right: 4vw; } }
+  #content { margin-left: 4vw; margin-right: 4vw; }
+  .navbar-footer { padding-bottom: 25vh; }
+  #back-button { margin-top: 1rem; } }

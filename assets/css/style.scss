@@ -102,7 +102,7 @@ main#content {
   transition: 1s;
 }
 
-.nav-mobile {
+.nav-mobile, .mobile-text {
   display: none;
 }
 
@@ -123,31 +123,49 @@ main#content {
   #mobile-menu {
     margin-bottom: 1rem;
   }
+  .page-header h1 {
+    padding-top: 4rem;
+  }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 880px) {
   .navbar {
     padding: 0;
-  }
-  .nav {
-    position: relative;
     display: none;
   }
-  .page-header .project-name {  
-    padding: 0;
+
+  .mobile-text {
+    display: block;
   }
-  .page-header {
-    height: 180px; 
+
+  // .nav {
+  //   position: relative;
+  //   display: none;
+  // }
+
+  .page-header h1 {
+    padding-top: 5rem;
   }
+
   .nav-mobile {
     display: block;
   }
+
   #mobile-menu {
     display: block;
   }
-  #content, footer {
+
+  #content {
     margin-left: 4vw;
     margin-right: 4vw;
+  }
+  
+  .navbar-footer {
+    padding-bottom: 25vh;
+  }
+
+  #back-button {
+    margin-top: 1rem;
   }
 }
 

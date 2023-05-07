@@ -28,6 +28,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="stylesheet" href="/assets/css/style.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="/assets/icons/favicons/dafinity-logo-256.ico">
@@ -39,6 +40,7 @@
   <header class="nav animate__animated animate__fadeIn">
     <nav class="border-gray-200 px-4 lg:px-8 py-2.5 dark:bg-gray-800">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+        <a href="#nav-btm" id="mobile-menu" class="navbar pt-3 px-4"><i class="material-icons text-2xl text-gray-500">menu</i></a>
         <a href="/" class="flex items-center" title="dService Home Page" rel="home">
           <img src="/assets/icons/favicons/logo-only.png" alt="DAfinity" class="logo-small">
         </a>
@@ -52,12 +54,13 @@
     <a class="btn" href="/aboutus">About us</a>
   </div>
         </div>
+        <a href="/aboutus" class="mobile-text"><i class="material-icons text-2xl text-gray-500 px-4">info</i></a>
       </div>
     </nav>
   </header>
   <header class="page-header" role="banner">
     <h1 class="project-name pt-16">dService</h1>
-    <a href="#nav-btm" id="mobile-menu" class="mt-4 text-2xl">Menu</a>
+
   </header>
   <main id="content" class="main-content" role="main">
     <style type="text/css" media="screen">
@@ -88,13 +91,13 @@
   <br>
   <span class="site-footer-owner">© 2023 DAfinity Data Science Programs Guide</span>
   <br>
-  <a href="/index" style="color:rgb(108, 101, 177)">
+  <a href="/index" id="back-button" style="color:rgb(108, 101, 177)">
     < Back to landing page </a>
 
 </footer>
   </main>
   <footer class="nav-mobile pl-4 pr-4" id="nav-btm">
-    <div class="navbar-footer pt-4">
+    <div class="navbar-footer pt-4 pl-4">
       <div class="links">
     <a class="btn" href="/home">Home</a>
     <a class="btn" href="/map">Map</a>
