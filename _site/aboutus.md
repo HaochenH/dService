@@ -50,5 +50,3 @@ Please note that dService was developed as a capstone project by students in the
 Through dService, you are able to link to other websites that are not under our control. We have no control over the nature, content, and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.
 
 Any reliance you place on such information is therefore strictly at your own risk. In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of dService.
-
-Our code is open source and available on GitHub. We welcome contributions from the community to help us improve dService. Please see our GitHub repository for more information.
