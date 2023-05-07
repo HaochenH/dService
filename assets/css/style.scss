@@ -17,11 +17,19 @@
 
 .nav .btn, .nav-mobile .btn {
   background-color: rgba(255, 255, 255, 0);
-  border-color: rgb(81, 100, 178);
+  // border-color: rgb(81, 100, 178);
+
   color: rgb(72, 91, 165);
   font-weight: 700;
   transition: 0.3s;
+  font-size: 1rem;
 }
+
+.navbar .btn {
+  border: none;
+  padding: 0;
+  padding-left: 1rem;
+} 
 
 .page-header {
   background-color: rgba(133, 133, 133, 0.5);
@@ -49,8 +57,8 @@ header h1 {
 }
 
 .logo-small {
-  width: 88px;
-  height: 88px;
+  width: 48px;
+  height: 48px;
 }
 
 .site-footer-owner {
@@ -100,7 +108,8 @@ main#content {
 
 #mobile-menu {
   color: rgb(95, 88, 157);
-  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgb(95, 88, 157);
   transition: 0.3s;
   text-decoration: underline;
   display: none;
@@ -110,6 +119,9 @@ main#content {
   #content {
     margin-left: 6vw;
     margin-right: 6vw;
+  }
+  #mobile-menu {
+    margin-bottom: 1rem;
   }
 }
 
@@ -121,8 +133,11 @@ main#content {
     position: relative;
     display: none;
   }
+  .page-header .project-name {  
+    padding: 0;
+  }
   .page-header {
-    height: 380px; 
+    height: 180px; 
   }
   .nav-mobile {
     display: block;

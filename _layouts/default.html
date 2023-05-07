@@ -18,27 +18,27 @@
 
 <body>
   <header class="nav animate__animated animate__fadeIn">
-    <nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+    <nav class="border-gray-200 px-4 lg:px-8 py-2.5 dark:bg-gray-800">
       <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
         <a href="/" class="flex items-center" title="dService Home Page" rel="home">
-          <img src="{{ site.baseurl }}/assets/images/logo-transparent.png" alt="DAfinity" class="logo-small">
+          <img src="{{ site.baseurl }}/assets/icons/favicons/logo-only.png" alt="DAfinity" class="logo-small">
         </a>
-        <div class="navbar pt-4">
+        <div class="navbar pt-3 px-4">
           {% include navigation-bar.html %}
         </div>
       </div>
     </nav>
   </header>
   <header class="page-header" role="banner">
-    <h1 class="project-name pt-24">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <a href="#nav-btm" id="mobile-menu" class="mt-6 text-2xl">Menu</a>
+    <h1 class="project-name pt-16">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <a href="#nav-btm" id="mobile-menu" class="mt-4 text-2xl">Menu</a>
   </header>
   <main id="content" class="main-content" role="main">
     {{ content }}
     {% include site-footer.html %}
   </main>
   <footer class="nav-mobile pl-4 pr-4" id="nav-btm">
-    <div class="navbar pt-4">
+    <div class="navbar-footer pt-4">
       {% include navigation-bar.html %}
     </div>
   </footer>

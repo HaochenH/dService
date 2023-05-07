@@ -324,7 +324,7 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { display: none; }
 
-.nav { position: fixed; background-color: rgba(27, 27, 27, 0.013); width: 100%; -webkit-backdrop-filter: blur(64px); backdrop-filter: blur(16px); z-index: 9999; }
+.nav { position: fixed; background-color: rgba(27, 27, 27, 0.45); width: 100%; -webkit-backdrop-filter: blur(64px); backdrop-filter: blur(16px); z-index: 9999; }
 
 .btn { background-color: #22222232; border-color: #c2c2c2ae; color: #e0e0e0; font-weight: 600; transition: 0.3s; }
 
@@ -332,7 +332,7 @@ a:hover { text-decoration: underline; }
 
 #header { background-color: #313131; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(rgba(52, 57, 80, 0.405), rgba(31, 31, 31, 0.725)), url(../images/earth-1-min.png); }
 
-.header-content { padding-top: 10vh; }
+.header-content { padding-top: 6vh; }
 
 #pic { background-color: #d4d4d4; background-size: cover; background-position: center; background-repeat: no-repeat; background-image: linear-gradient(white, white); }
 
@@ -340,25 +340,33 @@ a:hover { text-decoration: underline; }
 
 #ranking-img { box-shadow: 0 0 2px 0 rgba(72, 72, 72, 0.485); background-color: #d7d5c9; width: 100%; max-width: 1006px; border-radius: 16px; margin-left: auto; margin-right: auto; }
 
+.demo-video { background-color: #2d2d2d; width: 100%; border-radius: 16px; box-shadow: 0 0 4px 0 rgba(222, 222, 222, 0.85); }
+
 .rounded { border-radius: 16px; }
 
 body { background-color: #0a0a0a; height: none; }
 
 .logo { width: 130px; height: 130px; }
 
-.logo-small { width: 88px; height: 88px; }
+.logo-small { width: 32px; height: 32px; }
 
 .site-footer-owner { font-weight: 600; color: rgba(135, 159, 255, 0.801); }
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 { color: #cacffc; }
 
 h2 { font-weight: 500; color: #cacffc; }
 
 p { color: white; }
+
+.in-paragraph-links { font-weight: 600; color: rgba(202, 207, 252, 0.9); }
 
 #grid-functions { color: white; }
 
 #auto-change-image { height: 500px; width: 100%; object-fit: cover; }
 
 #homepage-title { animation-name: title-appear; animation-duration: 1s; animation-timing-function: ease-in-out; }
+
+.nav-footer { display: none; }
 
 @keyframes title-appear { from { opacity: 0; transform: translateY(-10%); }
   to { opacity: 1; transform: translateY(0%); } }
@@ -374,3 +382,4 @@ p { color: white; }
   .page-header h1 { font-size: 2.2rem; padding-bottom: 0.5rem; }
   .page-header h2 { font-size: 1.2rem; padding-bottom: 0.5rem; line-height: 1.5; }
   .page-header .btn { font-size: 1.1rem; margin-top: 2rem; margin-bottom: 2.5rem; } }
+@media (max-width: 600px) { .nav-footer { display: block; } }

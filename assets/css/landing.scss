@@ -8,7 +8,7 @@
 
 .nav{
   position: fixed;
-  background-color: rgba(27, 27, 27, 0.013);
+  background-color: rgba(27, 27, 27, 0.45);
   width: 100%;
   //background blur
   -webkit-backdrop-filter: blur(64px);
@@ -42,7 +42,7 @@
 }
 
 .header-content {
-  padding-top: 10vh;
+  padding-top: 6vh;
 }
 
 #pic{
@@ -70,6 +70,15 @@
   margin-right: auto;
 }
 
+.demo-video {
+  background-color: rgb(45, 45, 45);
+  width: 100%;
+  border-radius: 16px; 
+  box-shadow: 0 0 4px 0 rgba(222, 222, 222, 0.85);
+  // border-color: rgb(185, 185, 185);
+  // border-width: 1px;
+}
+
 .rounded {
   border-radius: 16px;
 }
@@ -86,13 +95,17 @@ body {
 }
 
 .logo-small {
-  width: 88px;
-  height: 88px;
+  width: 32px;
+  height: 32px;
 }
 
 .site-footer-owner {
   font-weight: 600;
   color: rgba(135, 159, 255, 0.801);
+}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+  color:rgb(202, 207, 252)
 }
 
 h2 {
@@ -102,6 +115,11 @@ h2 {
 
 p {
   color: rgb(255, 255, 255);
+}
+
+.in-paragraph-links {
+  font-weight:600;
+  color:rgba(202, 207, 252, 0.9)
 }
 
 #grid-functions {
@@ -118,6 +136,10 @@ p {
   animation-name: title-appear;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
+}
+
+.nav-footer {
+  display: none;
 }
 
 @keyframes title-appear {
@@ -184,5 +206,11 @@ p {
     font-size: 1.1rem;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-footer {
+    display: block;
   }
 }
