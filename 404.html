@@ -4,7 +4,14 @@ layout: default
 ---
 
 <script>
-  window.location.href = "/"; // automatically redirect to home page when 404
+  var count = 3; // set the countdown time
+  setInterval(function () {
+    count--;
+    if (count === 0) {
+      window.location.href = "/"; // redirect to home page when countdown reaches zero
+    }
+    document.getElementById("countdown").innerHTML = count; // update the countdown timer in the HTML
+  }, 1000); // run the countdown every second
 </script>
 
 <style type="text/css" media="screen">
@@ -13,11 +20,17 @@ layout: default
     max-width: 600px;
     text-align: center;
   }
+
   h1 {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1;
     letter-spacing: -1px;
+  }
+
+  #countdown-text {
+    font-size: 1em;
+    color: #6c65b1;
   }
 </style>
 
@@ -25,5 +38,6 @@ layout: default
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p style="color: #6c65b1;">You will be redirected to the <a href="/" style="color: #6c65b1;"> Landing Page </a>
+    in <span id="countdown">3</span> seconds.</p>
 </div>
