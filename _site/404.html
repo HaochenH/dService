@@ -10,14 +10,14 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Welcome to dService, an innovative platform to help students interested in data science with personalized insights and detailed information about U.S. Data Science Master’s programs." />
 <meta property="og:description" content="Welcome to dService, an innovative platform to help students interested in data science with personalized insights and detailed information about U.S. Data Science Master’s programs." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<link rel="canonical" href="http://localhost:4002/404.html" />
+<meta property="og:url" content="http://localhost:4002/404.html" />
 <meta property="og:site_name" content="dService" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="dService" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Welcome to dService, an innovative platform to help students interested in data science with personalized insights and detailed information about U.S. Data Science Master’s programs.","headline":"dService","url":"http://localhost:4000/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Welcome to dService, an innovative platform to help students interested in data science with personalized insights and detailed information about U.S. Data Science Master’s programs.","headline":"dService","url":"http://localhost:4002/404.html"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -63,17 +63,34 @@
 
   </header>
   <main id="content" class="main-content" role="main">
-    <style type="text/css" media="screen">
+    <script>
+  var count = 3; // set the countdown time
+  setInterval(function () {
+    count--;
+    if (count === 0) {
+      window.location.href = "/"; // redirect to home page when countdown reaches zero
+    }
+    document.getElementById("countdown").innerHTML = count; // update the countdown timer in the HTML
+  }, 1000); // run the countdown every second
+</script>
+
+<style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
     text-align: center;
   }
+
   h1 {
     margin: 30px 0;
-    font-size: 4em;
+    font-size: 5em;
     line-height: 1;
     letter-spacing: -1px;
+  }
+
+  #countdown-text {
+    font-size: 1em;
+    color: #6c65b1;
   }
 </style>
 
@@ -81,9 +98,9 @@
   <h1>404</h1>
 
   <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p style="color: #6c65b1;">You will be redirected to the <a href="/" style="color: #6c65b1;"> Landing Page </a>
+    in <span id="countdown">3</span> seconds.</p>
 </div>
-
     <footer class="site-footer">
   <a href="/" title="dService Home Page" rel="home">
     <img src="/assets/images/logo-transparent.png" alt="DAfinity" class="logo">

@@ -1,6 +1,6 @@
 ## About DAfinity
 
-<img class="pb-2" src="https://user-images.githubusercontent.com/101531662/236112083-cde735ca-7ee6-4ead-8967-717132d74ccf.png" style="width:218px">
+<img class="pb-2" src="/assets/icons/iSchoolPrimary_RGB_Purple.svg" style="width:256px">
 
 <div class="about-us-grid grid lg:grid-cols-2 gap-6">
   <div class="p-6 bg-gray-100 rounded-lg">
